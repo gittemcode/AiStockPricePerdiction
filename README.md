@@ -37,7 +37,6 @@ sp500 = sp500.history(period="max")
 
 ### Run the prediction model:
 
-
 The model uses historical data from 1990 onwards
 Incorporates multiple technical indicators including rolling averages
 Predicts market movements with a 60% confidence threshold
@@ -46,9 +45,9 @@ Predicts market movements with a 60% confidence threshold
 Algorithm: Random Forest Classifier
 Parameters:
 
-n_estimators: 200
-min_samples_split: 50
-random_state: 1
+- n_estimators: 200
+- min_samples_split: 50
+- random_state: 1
 
 Prediction threshold: 0.6 (60% confidence required for positive prediction)
 
