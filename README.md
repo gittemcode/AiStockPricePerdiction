@@ -24,11 +24,11 @@ bashCopypip install pandas numpy matplotlib yfinance scikit-learn
 ## Usage
 ### Import required libraries and download S&P 500 data:
 
-pythonCopyimport pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import yfinance as yf
-from sklearn.ensemble import RandomForestClassifier
+- pythonCopyimport pandas as pd
+- import numpy as np
+- import matplotlib.pyplot as plt
+- import yfinance as yf
+- from sklearn.ensemble import RandomForestClassifier
 
 ### Initialize and download S&P 500 data:
 
