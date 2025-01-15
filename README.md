@@ -43,6 +43,7 @@ Predicts market movements with a 60% confidence threshold
 
 ## Model Details
 Algorithm: Random Forest Classifier
+
 Parameters:
 
 - n_estimators: 200
