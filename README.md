@@ -32,14 +32,15 @@ bashCopypip install pandas numpy matplotlib yfinance scikit-learn
 
 ### Initialize and download S&P 500 data:
 
-pythonCopysp500 = yf.Ticker("^GSPC")
-sp500 = sp500.history(period="max")
+- pythonCopysp500 = yf.Ticker("^GSPC")
+- sp500 = sp500.history(period="max")
 
 ### Run the prediction model:
 
-The model uses historical data from 1990 onwards
-Incorporates multiple technical indicators including rolling averages
-Predicts market movements with a 60% confidence threshold
+## Data Details
+- The model uses historical data from 1990 onwards
+- Incorporates multiple technical indicators including rolling averages
+- Predicts market movements with a 60% confidence threshold
 
 ## Model Details
 Algorithm: Random Forest Classifier
